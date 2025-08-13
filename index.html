@@ -1,225 +1,676 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html><!doctype html>
+<html lang=en>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-       <!-- --------Link Font Family-------- -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-        <!-- --------Link Font Awesome-------- -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- --------Link bootstrap-------- -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <!-- --------Link css-------- -->
-    <link rel="stylesheet" href="./css/index.css">
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Document</title>
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel=stylesheet>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css>
+<link rel=stylesheet href=./css/bootstrap.min.css>
+<link rel=stylesheet href=./css/index.min.css>
 </head>
 <body>
-     <!-- ----------------------navbar------------------------- -->
- <nav class="navbar navbar-expand-lg bg-black  bg-opacity-75 py-1 fixed-top">
-
-    <div class="container">
-
-        <h1>
-            <a class="navbar-brand  pe-5 text-white " href="#">Daniels</a>
-        </h1>
-        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon text-white"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-         <ul class="navbar-nav text-white ms-auto mb-2 mb-lg-0">
-            <li class="nav-item px-3">
-            <a class="nav-link active text-white" aria-current="page" href="#home">Home</a>
-            </li>
-
-            <li class="nav-item px-3">
-            <a class="nav-link text-white " href="#about">About</a>
-            </li>
-            <li class="nav-item px-3">
-            <a class="nav-link text-white" href="#services">Services</a>
-            </li>
-            <li class="nav-item px-3">
-            <a class="nav-link text-white" href="#work">works</a>
-            </li>
-            <li class="nav-item px-3">
-            <a class="nav-link text-white" href="#clients">Clients</a>
-            </li>    
-            <li class="nav-item px-3">
-            <a class="nav-link text-white" href="#team">Team</a>
-            </li>    
-            <li class="nav-item px-3">
-            <a class="nav-link  text-white" href="#contact">Contact</a>
-            </li>
-        </ul>
-
-        </div>
-     </div>
+<nav class="navbar navbar-expand-lg bg-white bg-opacity-75 py-1 fixed-top">
+<div class="container-fluid bg-white">
+<h1>
+<a class="navbar-brand p-5 main-color" href=#>Daniels</a>
+</h1>
+<button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
+<span class="navbar-toggler-icon main-color"></span>
+</button>
+<div class="collapse navbar-collapse" id=navbarSupportedContent>
+<ul class="navbar-nav text-white ms-auto mb-2 mb-lg-0">
+<li class="nav-item px-3">
+<a class="nav-link active main-color" aria-current=page href=#home>Home</a>
+</li>
+<li class="nav-item px-3">
+<a class="nav-link main-color" href=#about>About</a>
+</li>
+<li class="nav-item px-3">
+<a class="nav-link main-color" href=#services>Services</a>
+</li>
+<li class="nav-item px-3">
+<a class="nav-link main-color" href=#work>works</a>
+</li>
+<li class="nav-item px-3">
+<a class="nav-link main-color" href=#clients>Clients</a>
+</li>
+<li class="nav-item px-3">
+<a class="nav-link main-color" href=#team>Team</a>
+</li>
+<li class="nav-item px-3">
+<a class="nav-link main-color" href=#contact>Contact</a>
+</li>
+</ul>
+</div>
+</div>
 </nav>
-    <!-- ----------------------//navbar//------------------------- -->
-    <!-- ----------------------header------------------------- -->
-     <header class="home camera-shutter">
-        <div class="header-content center-content flex-column h-100">
-            <h1>Hello</h1>
-            <p class="my-3">I Am <span class="typed-text font-awesome"></span></p>
-            <div class="topbar-icons">
-            <a href="#" class="text-white mx-0 icon-circle fs-5"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="text-white mx-0 icon-circle fs-5"><i class="fab fa-twitter"></i></a>
-            <a href="#" class="text-white mx-0 icon-circle fs-5"><i class="fab fa-dribbble"></i></a>
-            <a href="#" class="text-white mx-0 icon-circle fs-5"><i class="fab fa-behance"></i></a>
-            <a href="#" class="text-white mx-0 icon-circle fs-5"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-
-        </div>
-     </header>
-    <!-- ----------------------//header//------------------------- -->
-    <!-- ----------------------about------------------------- -->
-    
-    <section class="about py-5 " id="About">
-        <div class="container py-5">
-                <div class="row g-4">
-                    <div class="col-12 col-lg-6">
-                        <div class="inner">
-                            <div class="border border-1 p-1">
-                                <img src="./imgs/hero.jpg" class="w-100" alt="about">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6">
-                        <div class="inner h-100  ">
-                            <h3 class="title">About Me.</h3>
-                            <span class="fs-5">UI / UX Designer & Web Developer</span>
-                            <p class="text-secondary">I am Jerry Daniels Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
-                            <div class="mb-3">
-                            
-                            <div class="progress">
-                                <div class="progress-bar bg-dark" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
-                                <span class="fw-semibold">Web Design</span><span>95%</span>
-                                </div>
-                            </div>
-                            </div>
-
-                            <div class="mb-3">
-                          
-                            <div class="progress">
-                                <div class="progress-bar bg-dark" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                  <span class="fw-semibold">Branding</span><span>80%</span>
-                                </div>
-                            </div>
-                            </div>
-
-                            <div>
-                            
-                            <div class="progress ">
-                                <div class="progress-bar bg-dark " role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                                    <span class="fw-semibold">Development</span> <span>90%</span>
-                                
-                                </div>
-                            </div>
-                            </div>
-
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- ----------------------//about//------------------------- -->
-        <!-- ----------------------services------------------------- -->
-          <section class="services py-5" id="services">
-        <div class="container py-5">
-            <div class="heading py-5 text-center">
-                <h3 class="fw-bold ">Services</h3>
-                <p class=" mt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
-            </div>
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-                <div class="col py-3 ">
-                    <div class="inner border border-1  p-4 text-center">
-                        <div class="service-icon  center-content  text-center p-5 mb-3">
-                            <div class="service-icon-footer mb-3">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </div>
-                            <h4 class="fw-semibold">Web Design</h4>
-                           <p class="text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
-                    </div>
-                </div>
-
-                <div class="col py-3">
-                    <div class="inner border border-1 p-4 text-center">
-                       <div class="service-icon  center-content  text-center p-5 mb-3">
-                             <div class="service-icon-footer mb-3">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </div>
-                            <h4 class="fw-semibold">Branding</h4>
-                           <p class="text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
-
-</p>
-                    </div>
-                </div>
-
-                 <div class="col py-3">
-                    <div class="inner border border-1 p-4 text-center">
-                       <div class="service-icon  center-content  text-center p-5 mb-3">
-                            <div class="service-icon-footer mb-3">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </div>
-                            <h4 class="fw-semibold">Development</h4>
-                           <p class="text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
-
-</p>
-                    </div>
-                </div>
-
-                 <div class="col py-3">
-                    <div class="inner border border-1 p-4 text-center">
-                        <div class="service-icon  center-content text-center p-5 mb-3">
-                            <div class="service-icon-footer mb-3">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </div>
-                            <h4 class="fw-semibold">Creative Design</h4>
-                           <p class="text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
-
-</p>
-                    </div>
-                </div>
-
-                 <div class="col py-3">
-                    <div class="inner  border border-1 p-4 text-center">
-                        <div class="service-icon  center-content  text-center p-5 mb-3">
-                            <div class="service-icon-footer mb-3">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </div>
-                            <h4 class="fw-semibold">Fully Responsive</h4>
-                           <p class="text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
-
-</p>
-                    </div>
-                </div>
-
-                 <div class="col py-3">
-                    <div class="inner border border-1 p-4 text-center">
-                       <div class="service-icon  center-content text-center p-5 mb-3">
-                            <div class="service-icon-footer mb-3">
-                                <i class="fa-solid fa-check"></i>
-                            </div>
-                        </div>
-                            <h4 class="fw-semibold">Retina Ready</h4>
-                           <p class="text-secondary">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever
-
-</p>
-                    </div>
-                </div>
-            </div>  
-        </div>
-        
-        <!-- ----------------------//services//------------------------- -->
-    <script src="./js/bootstrap.bundle.min.js"></script>
-</body>
+<header class="home camera-shutter" id=home>
+<div class="header-content center-content flex-column h-100">
+<h1>Hello</h1>
+<p class=my-3>I Am <span class="typed-text font-awesome"></span></p>
+<div class=topbar-icons>
+<a href=# class="text-white mx-0 icon-circle fs-5"><i class="fab fa-facebook-f"></i></a>
+<a href=# class="text-white mx-0 icon-circle fs-5"><i class="fab fa-twitter"></i></a>
+<a href=# class="text-white mx-0 icon-circle fs-5"><i class="fab fa-dribbble"></i></a>
+<a href=# class="text-white mx-0 icon-circle fs-5"><i class="fab fa-behance"></i></a>
+<a href=# class="text-white mx-0 icon-circle fs-5"><i class="fab fa-linkedin-in"></i></a>
+</div>
+</div>
+</header>
+<section class="about py-5" id=about>
+<div class="container py-5">
+<div class=row>
+<div class="col-12 col-lg-6">
+<div class=inner>
+<div class="about-img mb-5">
+<img src=./imgs/hero.jpg alt=about>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-6">
+<div class="inner h-100">
+<h3 class="title main-color">About Me.</h3>
+<div class=title2>UI / UX Designer & Web Developer</div>
+<p class="text-secondary py-4 about-p">I am <span>Jerry Daniels</span> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever It has survived not only five centuries, but also the leap into electronic but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
+<div class=mb-3>
+<div class="progress custom-progress rounded-2">
+<div class="progress-bar d-flex space-between" role=progressbar style=width:95% aria-valuenow=95 aria-valuemin=0 aria-valuemax=100>
+<span class=fw-semibold>Web Design</span><span>95%</span>
+</div>
+</div>
+</div>
+<div class="mb-3 py-4">
+<div class="progress custom-progress rounded-2">
+<div class=progress-bar role=progressbar style=width:80% aria-valuenow=80 aria-valuemin=0 aria-valuemax=100>
+<span class=fw-semibold>Branding</span><span>80%</span>
+</div>
+</div>
+</div>
+<div class=mb-3>
+<div class="progress custom-progress rounded-2">
+<div class=progress-bar role=progressbar style=width:90% aria-valuenow=90 aria-valuemin=0 aria-valuemax=100>
+<span class=fw-semibold>Development</span> <span>90%</span>
+</div>
+</div>
+</div>
+<div class="about-button py-5">
+<button type=button class="btn1 rounded-2 py-1 px-2 border-1 btn-md">Download C.V</button>
+<button type=button class="btn2 rounded-2 py-1 px-2 border-1 btn-md">Contact Me</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="services py-5" id=services>
+<div class="container py-5">
+<div class="title-section py-5 text-center">
+<h2 class="fs-1 main-color">Services.</h2>
+</div>
+<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+<div class="col py-3">
+<div class="inner services-inner border border-1 rounded-1 p-4 text-center">
+<div class="center-content text-center px-5 py-2 mb-3">
+<div>
+<a href=# class="services-icons-circle fs-5"><i class="fa-solid fa-laptop fa-lg"></i></a>
+</div>
+</div>
+<h4 class="fw-semibold fs-5">Web Design</h4>
+<p class="text-secondary fs-6 py-3">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+</div>
+</div>
+<div class="col py-3">
+<div class="inner services-inner border border-1 rounded-1 p-4 text-center">
+<div class="center-content text-center py-2 px-5 mb-3">
+<div>
+<a href=# class="mx-2 services-icons-circle fs-5"><i class="fa-solid fa-bullhorn fa-lg"></i></a>
+</div>
+</div>
+<h4 class="fw-semibold fs-5">Branding</h4>
+<p class="text-secondary fs-6 py-3">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever </p>
+</div>
+</div>
+<div class="col py-3">
+<div class="inner services-inner border border-1 rounded-1 p-4 text-center">
+<div class="center-content text-center px-5 py-2 mb-3">
+<div>
+<a href=# class="mx-2 services-icons-circle fs-5"><i class="fa-solid fa-umbrella fa-lg"></i></a>
+</div>
+</div>
+<h4 class="fw-semibold fs-5">Development</h4>
+<p class="text-secondary fs-6 py-3">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+</div>
+</div>
+<div class="col py-3">
+<div class="inner services-inner border border-1 rounded-1 p-4 text-center">
+<div class="center-content text-center px-5 py-2 mb-3">
+<div>
+<a href=# class="mx-2 services-icons-circle fs-5"><i class="fa-solid fa-gem fa-lg"></i></a>
+</div>
+</div>
+<h4 class="fw-semibold fs-5">Creative Design</h4>
+<p class="text-secondary fs-6 py-3">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+</div>
+</div>
+<div class="col py-3">
+<div class="inner services-inner border border-1 rounded-1 p-4 text-center">
+<div class="center-content text-center px-5 py-2 mb-3">
+<div>
+<a href=# class="mx-2 services-icons-circle fs-5"><i class="fa-solid fa-television fa-lg"></i></a>
+</div>
+</div>
+<h4 class="fw-semibold fs-5">Fully Responsive</h4>
+<p class="text-secondary fs-6 py-3">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+</div>
+</div>
+<div class="col py-3">
+<div class="inner services-inner border border-1 rounded-1 p-4 text-center">
+<div class="center-content text-center px-5 py-2 mb-3">
+<div>
+<a href=# class="mx-2 services-icons-circle fs-5"><i class="fa-solid fa-camera fa-lg"></i></a>
+</div>
+</div>
+<h4 class="fw-semibold fs-5">Retina Ready</h4>
+<p class="text-secondary fs-6 py-3">Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the industry's standard dummy text ever</p>
+</div>
+</div>
+</div>
+</div>
+<section class="work py-5" id=work>
+<div class="container p-5">
+<div class="title-section py-5 text-center">
+<h2 class="fs-1 main-color">Portfolio.</h2>
+</div>
+<ul class="nav nav-pills my-3 d-flex justify-content-center" id=pills-tab role=tablist>
+<li class=nav-item role=presentation>
+<button class="nav-link text-uppercase active main-color" id=pills-home-tab data-bs-toggle=pill data-bs-target=#pills-home type=button role=tab aria-controls=pills-home aria-selected=true>All</button>
+</li>
+<li class=nav-item role=presentation>
+<button class="nav-link text-uppercase main-color" id=pills-profile-tab data-bs-toggle=pill data-bs-target=#pills-profile type=button role=tab aria-controls=pills-profile aria-selected=false>Brand</button>
+</li>
+<li class=nav-item role=presentation>
+<button class="nav-link text-uppercase main-color" id=pills-contact-tab data-bs-toggle=pill data-bs-target=#pills-contact type=button role=tab aria-controls=pills-contact aria-selected=false>Design</button>
+</li>
+<li class=nav-item role=presentation>
+<button class="nav-link text-uppercase main-color" id=pills-work-tab data-bs-toggle=pill data-bs-target=#pills-work type=button role=tab aria-controls=pills-work aria-selected=false>Graphic</button>
+</li>
+</ul>
+<div class="tab-content my-5" id=pills-tabContent>
+<div class="tab-pane fade show active" id=pills-home role=tabpanel aria-labelledby=pills-home-tab tabindex=0>
+<div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+<div class="col animate__animated animate__fadeInBottomRight">
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/1.jpg class=w-100 alt=image1>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col animate__animated animate__fadeInBottomLeft">
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/2.jpg class=w-100 alt=image2>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col animate__animated animate__fadeInBottomLeft">
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/3.jpg class=w-100 alt=image3>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col animate__animated animate__fadeInBottomRight">
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/4.jpg class=w-100 alt=image4>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col animate__animated animate__fadeInBottomLeft">
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/5.jpg class=w-100 alt=image5>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="col animate__animated animate__fadeInBottomLeft">
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/6.jpg class=w-100 alt=image6>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade" id=pills-profile role=tabpanel aria-labelledby=pills-profile-tab tabindex=0>
+<div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+<div class=col>
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/4.jpg class=w-100 alt=image4>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=col>
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/6.jpg class=w-100 alt=image6>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade" id=pills-contact role=tabpanel aria-labelledby=pills-contact-tab tabindex=0>
+<div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+<div class=col>
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/2.jpg class=w-100 alt=image2>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=col>
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/5.jpg class=w-100 alt=image5>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade" id=pills-work role=tabpanel aria-labelledby=pills-work-tab tabindex=0>
+<div class="row g-4 row-cols-1 row-cols-md-2 row-cols-lg-3">
+<div class=col>
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/1.jpg class=w-100 alt=image1>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=col>
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/3.jpg class="w-100 rounded-3" alt=image3>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class=col>
+<div class="inner tabs overflow-hidden">
+<div class="position-relative image-tab">
+<img src=./imgs/portfolio/5.jpg class=w-100 alt=image5>
+<div class="layer center-content bg-white bg-opacity-100">
+<div class="h-100 text-tab center-content flex-column">
+<p class=main-color>WEB DESIGN</p>
+<div class="icons-tab d-flex justify-content-center gap-2 mt-2">
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-link"></i></a>
+<a href=# class="btn main-background-color text-white btn-sm rounded-circle"><i class="fa-solid fa-search"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-5 bg-body-secondary" id=clients>
+<div class=container>
+<div class="title-section py-5 text-center">
+<h2 class="fs-1 main-color py-5">Testimonials.</h2>
+</div>
+<div id=carouselExampleCaptions class="carousel slide" data-bs-ride=carousel data-bs-interval=1500>
+<div class=carousel-inner>
+<div class="carousel-item active">
+<figure class="image my-3">
+<img src=./imgs/1_New1.jpg class="d-block rounded-circle w-100" alt=1-New1>
+</figure>
+<figcaption class="carousel-caption text-dark position-static d-none d-md-block">
+<p class="text-secondary fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aperiam similique culpa doloremque id voluptatum alias et minima praesentium reprehenderit ipsam impedit fugiat velit, omnis deleniti hic, neque deserunt distinctio.</p>
+<div class="client-text py-4">
+<h5 class=h6><span class=fw-bold>Alex Smith</span></h5>
+<p class=text-secondary>Envato Costomer</p>
+</div>
+</figcaption>
+</div>
+<div class=carousel-item>
+<figure class=image>
+<img src=./imgs/1_New1.jpg class="d-block rounded-circle w-100" alt=test1>
+</figure>
+<figcaption class="carousel-caption text-dark position-static d-none d-md-block">
+<p class="text-secondary fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aperiam similique culpa doloremque id voluptatum alias et minima praesentium reprehenderit ipsam impedit fugiat velit, omnis deleniti hic, neque deserunt distinctio.</p>
+<div class="client-text py-4">
+<h5 class=h6><span class=fw-bold>Alex Smith</span></h5>
+<p class=text-secondary>Envato Costomer</p>
+</div>
+</figcaption>
+</div>
+<div class=carousel-item>
+<figure class=image>
+<img src=./imgs/1_New1.jpg class="d-block rounded-circle w-100" alt=test1>
+</figure>
+<figcaption class="carousel-caption text-dark position-static d-none d-md-block">
+<p class="text-secondary fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore aperiam similique culpa doloremque id voluptatum alias et minima praesentium reprehenderit ipsam impedit fugiat velit, omnis deleniti hic, neque deserunt distinctio.</p>
+<div class="client-text py-4">
+<h5 class=h6><span class=fw-bold>Alex Smith</span></h5>
+<p class=text-secondary>Envato Costomer</p>
+</div>
+</figcaption>
+</div>
+</div>
+<div class="carousel-indicators position-static">
+<button type=button data-bs-target=#carouselExampleCaptions data-bs-slide-to=0 class=active aria-current=true aria-label="Slide 1"></button>
+<button type=button data-bs-target=#carouselExampleCaptions data-bs-slide-to=1 aria-label="Slide 2"></button>
+<button type=button data-bs-target=#carouselExampleCaptions data-bs-slide-to=2 aria-label="Slide 3"></button>
+</div>
+</div>
+</div>
+</section>
+<section class="clients-icon py-5 bg-white" id=Contact>
+<div class="container py-5">
+<div class="row center-content">
+<div class="col-12 col-lg-3">
+<div class="inner clients-icon-inner p-4">
+<div class=topbar-icons>
+<a href=# class="fw-bold clients-icon-circle fs-3"><i class="fa-solid fa-users fa-lg"></i></a>
+</div>
+<h3 class="fw-bold mt-4">850</h3>
+<p class=text-secondary>Happy Customers</p>
+</div>
+</div>
+<div class="col-12 col-lg-3">
+<div class="inner clients-icon-inner p-4">
+<div class=topbar-icons>
+<a href=# class="fw-bold clients-icon-circle fs-3"><i class="fa-solid fa-thumbs-up fa-lg"></i></a>
+</div>
+<h3 class="fw-bold mt-4">230</h3>
+<p class=text-secondary>Complete Projects</p>
+</div>
+</div>
+<div class="col-12 col-lg-3">
+<div class="inner clients-icon-inner p-4">
+<div class=topbar-icons>
+<a href=# class="fw-bold clients-icon-circle fs-3"><i class="fa-solid fa-bullhorn fa-lg"></i></a>
+</div>
+<h3 class="fw-bold mt-4">9450</h3>
+<p class=text-secondary>Lines Of Code</p>
+</div>
+</div>
+<div class="col-12 col-lg-3">
+<div class="inner clients-icon-inner p-4">
+<div class=topbar-icons>
+<a href=# class="fw-bold clients-icon-circle fs-3"><i class="fa-solid fa-cloud-arrow-down fa-lg"></i></a>
+</div>
+<h3 class="fw-bold mt-4">780</h3>
+<p class=text-secondary>Files Downloaded</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="team py-5 bg-body-tertiary" id=team>
+<div class="container py-5">
+<div class="title-section py-5 text-center">
+<h2 class="fs-1 main-color py-5">Our Team.</h2>
+</div>
+<div class="row center-content">
+<div class="col-12 col-md-6 col-lg-4">
+<div class="inner inner-team p-4">
+<div class="card w-100">
+<div class="img-team w-100 overflow-hidden position-relative">
+<img src=./imgs/1.jpg class="card-img-top w-100" alt=imgs1>
+<div class="overlyer center-content bg-white bg-opacity-100">
+<div class=icons>
+<a href=#><i class="fa-brands fa-facebook-f"></i></a>
+<a href=#><i class="fa-brands fa-twitter"></i></a>
+<a href=#><i class="fa-brands fa-pinterest"></i></a>
+<a href=#><i class="fa-brands fa-linkedin-in"></i></a>
+</div>
+</div>
+</div>
+<div class="card-body bg-secondary text-center text-white">
+<h4 class="card-text text-capitalize">John Doe</h4>
+<h5 class="card-text fw-bold text-uppercase">Front-End Developer</h5>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<div class="inner inner-team p-4">
+<div class="card w-100">
+<div class="img-team w-100 overflow-hidden position-relative">
+<img src=./imgs/2.jpg class="card-img-top w-100" alt=imgs2>
+<div class="overlyer center-content bg-white bg-opacity-100">
+<div class=icons>
+<a href=#><i class="fa-brands fa-facebook-f"></i></a>
+<a href=#><i class="fa-brands fa-twitter"></i></a>
+<a href=#><i class="fa-brands fa-pinterest"></i></a>
+<a href=#><i class="fa-brands fa-linkedin-in"></i></a>
+</div>
+</div>
+</div>
+<div class="card-body bg-secondary text-center text-white">
+<h4 class="card-text text-capitalize">John Doe</h4>
+<h5 class="card-text fw-bold text-uppercase">Front-End Developer</h5>
+</div>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 col-lg-4">
+<div class="inner inner-team p-4">
+<div class="card w-100">
+<div class="img-team w-100 overflow-hidden position-relative">
+<img src=./imgs/1.jpg class="card-img-top w-100" alt=imgs1>
+<div class="overlyer center-content bg-white bg-opacity-100">
+<div class=icons>
+<a href=#><i class="fa-brands fa-facebook-f"></i></a>
+<a href=#><i class="fa-brands fa-twitter"></i></a>
+<a href=#><i class="fa-brands fa-pinterest"></i></a>
+<a href=#><i class="fa-brands fa-linkedin-in"></i></a>
+</div>
+</div>
+</div>
+<div class="card-body bg-secondary text-center text-white">
+<h4 class="card-text text-capitalize">John Doe</h4>
+<h5 class="card-text fw-bold text-uppercase">Front-End Developer</h5>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="contact py-5 bg-white" id=contact>
+<div class="container py-5">
+<div class="title-section py-5 text-center">
+<h2 class="fs-1 main-color py-5">Contact.</h2>
+</div>
+<div>
+<div class="row center-content">
+<div class="col-12 col-lg-4">
+<div class="inner contact-inner p-4">
+<div class=topbar-icons>
+<a href=# class="mx-2 contact-icon-circle fs-5"><i class="fa-solid fa-location-arrow fa-lg"></i></a>
+</div>
+<h3 class="h5 fw-semibold mt-4">Address</h3>
+<p class=text-secondary>6834 Hollywood Blvd - Los Angeles CA</p>
+</div>
+</div>
+<div class="col-12 col-lg-4">
+<div class="inner contact-inner p-4">
+<div class=contact-icons>
+<a href=# class="mx-2 contact-icon-circle fs-5"><i class="fa-solid fa-envelope fa-lg"></i></a>
+</div>
+<h3 class="h5 fw-semibold mt-4">Email</h3>
+<p class=text-secondary>Support@website.com</p>
+</div>
+</div>
+<div class="col-12 col-lg-4">
+<div class="inner contact-inner p-4">
+<div class=contact-icons>
+<a href=# class="mx-2 contact-icon-circle fs-5"><i class="fa-solid fa-phone fa-lg"></i></a>
+</div>
+<h3 class="h5 fw-semibold mt-4">Phone</h3>
+<p class=text-secondary>+20 010 2517 8918</p>
+</div>
+</div>
+</div>
+<div class="row g-4 py-5">
+<div class="col-12 col-lg-6">
+<div class=inner>
+<div class=form-floating>
+<input class=form-control id=floatingInput placeholder="">
+<label for="floatingInput contact-label">Name</label>
+</div>
+</div>
+</div>
+<div class="col-12 col-lg-6">
+<div class=inner>
+<div class=form-floating>
+<input type=email class=form-control id=floatingInput placeholder="">
+<label for=floatingInput>Email</label>
+</div>
+</div>
+</div>
+<div class=col-12>
+<div class=inner>
+<div class=form-floating>
+<input class=form-control id=floatingInput placeholder=name@example.com>
+<label for=floatingInput>Message</label>
+</div>
+</div>
+</div>
+<div class=col-12>
+<div class=inner>
+<div class=form-floating>
+<div class=form-floating>
+<textarea class=form-control placeholder="Leave a comment here" id=floatingTextarea style=height:100px></textarea>
+<label for=floatingTextarea>Comments</label>
+</div>
+</div>
+</div>
+</div>
+<div class=col-12>
+<div class="inner d-flex justify-content-start">
+<button class="btn btn-my-btn d-block py-1 px-4">Submet</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script src=./js/bootstrap.bundle.min.js></script>
+</section></body>
 </html>
